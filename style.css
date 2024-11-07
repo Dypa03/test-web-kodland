@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #f4f4f4;
+    --primary-color: #fc2e20;
+    --secondary-color: #000000;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: var(--background);
+}
+
+/* Header */
+.header {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    width: 100%;
+
+    font-size: 2rem;
+    font-weight: 600;
+
+    /*position: fixed;*/
+}
+
+/* Navbar */
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Welcome */
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+
+    padding: 3rem;
+    padding-left: 6%;
+    color: var(--background);
+    height: 90vh;
+
+    background-image: url("images/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome h1 {
+    font-size: 16rem;
+    font-weight: 600;
+}

@@ -1,0 +1,24 @@
+Exercise steps:
+1. Setup
+    - HTML
+    - CSS
+    - Font
+
+2. Header
+    - site name + navbar, black, space between
+    - Navbar links
+
+3. Welcome Section
+    - Title + p + button, vertical flex, align left
+
+4. Curiosity Section
+    - h3 + p, white background
+
+5. Choice Section
+    - gridbox, 3 cols, img+h3+button
+
+6. Rules Section
+    - boh
+
+7. Footer
+    - flex box, h3 + 4p
